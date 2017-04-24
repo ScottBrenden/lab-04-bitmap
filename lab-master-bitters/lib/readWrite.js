@@ -22,7 +22,6 @@ module.exports = function() {
       fs.writeFile(`${__dirname}/../assets/bmp-files/new${fileArray[i]}`,picture,function(err){
         if(err) throw err;
         data = dataOne;
-
       });
     });
   }
